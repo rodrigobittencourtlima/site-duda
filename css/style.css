@@ -102,7 +102,7 @@ ul {
 
 .nav-menu ul {
   display: flex;
-  gap: 35px;
+  gap: 20px;
 }
 
 .nav-menu a {
@@ -258,10 +258,26 @@ ul {
   gap: 20px;
 }
 
+.resultado-item img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  object-fit: cover;
+  display: block;
+}
+
 .depoimentos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 20px;
+}
+
+.depoimento-item img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius);
+  object-fit: contain;
+  display: block;
 }
 
 /* Placeholders de imagem pra migração */
